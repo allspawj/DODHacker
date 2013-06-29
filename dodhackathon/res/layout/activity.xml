@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <ImageButton
+        android:id="@+id/light"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="28dp"
+        android:layout_marginTop="48dp"
+        android:background="@drawable/activitylight"
+        android:onClick="workoutl" />
+
+    <ImageButton
+        android:id="@+id/heavy"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/light"
+        android:layout_below="@+id/light"
+        android:layout_marginTop="44dp"
+        android:background="@drawable/activityheavy"
+        android:onClick="workouth" />
+
+    <ImageButton
+        android:id="@+id/moderate"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/light"
+        android:layout_marginRight="50dp"
+        android:background="@drawable/activitymoderate"
+        android:onClick="workoutm" />
+
+    <ImageButton
+        android:id="@+id/extreme"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/moderate"
+        android:layout_alignTop="@+id/heavy"
+        android:background="@drawable/activityextreme"
+        android:onClick="workoute" />
+
+</RelativeLayout>

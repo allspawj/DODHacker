@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+    
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+
+    <RelativeLayout
+        android:id="@+id/news"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="gone" >
+
+
+        <EditText
+            android:id="@+id/editT"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:editable="true"
+             >
+        </EditText>
+        
+        <Button
+            android:id="@+id/leave"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/editT"
+            android:text="GO BACK"
+            android:onClick="newclicky"
+            >
+        </Button>
+        <ScrollView
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@id/leave"
+            >
+        <TextView
+            android:id="@+id/TV"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/leave"
+            android:textSize="30dp"
+            android:lineSpacingExtra="10dp"
+            android:maxLines = "1000"
+            android:scrollbars = "vertical" 
+            android:focusable="true" >
+        </TextView>
+        </ScrollView>
+        
+        
+    </RelativeLayout>
+    
+    
+    <ScrollView
+        android:id="@+id/olds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#ffffff" >
+
+        <RelativeLayout
+            android:id="@+id/menusRel"
+            android:layout_width="800dp"
+            android:layout_height="wrap_content"
+            android:textAppearance="?android:attr/textAppearanceLarge" >
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

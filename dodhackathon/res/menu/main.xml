@@ -1,0 +1,37 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <item
+        android:id="@+id/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never"
+        android:title="@string/action_settings"/>
+    
+    
+    <item
+        android:id="@+id/squad1"
+        android:showAsAction="never"
+        android:title="Squad 1" ></item>
+    
+    
+    <item
+        android:id="@+id/squad2"
+        android:showAsAction="never"
+        android:title="Squad 2" ></item>
+    
+    
+    <item
+        android:id="@+id/platoon"
+        android:showAsAction="never"
+        android:title="Platoon" ></item>
+   
+    <item
+        android:id="@+id/data"
+        android:showAsAction="never"
+        android:title="nutritiondata.self.com" ></item>
+    
+    <item
+        android:id="@+id/facts"
+        android:showAsAction="never"
+        android:title="nutri-facts.com" ></item>
+
+</menu>

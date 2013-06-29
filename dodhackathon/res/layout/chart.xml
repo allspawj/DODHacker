@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+	xmlns:android="http://schemas.android.com/apk/res/android"    
+    android:id="@+id/menusRel"
+    android:layout_width="800dp"
+    android:layout_height="wrap_content"
+    android:background="#ffffff"  >
+    
+    <ImageView
+        android:id="@+id/image5"
+        android:layout_width="400dp"
+        android:layout_height="600dp"
+        android:src="@drawable/chartview" />
+    
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/image5"
+        android:onClick="rchartclick"
+        android:text="Return" />
+</RelativeLayout>

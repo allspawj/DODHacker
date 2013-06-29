@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" 
+     >
+    <Button
+        android:id="@+id/mre12"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:text="Meal Ready to Eat Ration Menus 2012"
+    android:onClick="mre12_click"
+    />
+    
+    <Button
+    android:id="@+id/mre13"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/mre12"
+    android:text="Meal Ready to Eat Ration Menus 2013"
+    android:onClick="mre13_click"
+    />
+        
+            <Button
+        android:id="@+id/fsr08"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/mre13"
+    android:text="First Strike Ration Menus 2008"
+    android:onClick="fsr08_click"
+    />
+            
+                <Button
+        android:id="@+id/fsr12"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/fsr08"
+    android:text="First Strike Ration Menus 2012"
+    android:onClick="fsr12_click"
+    />
+                
+                    <Button
+        android:id="@+id/mc08"
+        android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_below="@id/fsr12"
+    android:text="Meal Cold Weather Ration Menus 2008"
+    android:onClick="mc08_click"
+    />
+</RelativeLayout>

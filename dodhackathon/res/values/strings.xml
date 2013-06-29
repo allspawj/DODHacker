@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">dodhackathon</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <color name="white">#FFFFFF</color>
+	<color name="black">#000000</color>
+	<string-array name="options">
+	    <item>0</item>
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+	</string-array>
+	
+	<string-array name="pref_entries">
+	    <item>entry0</item>
+        <item>entry1</item>
+        <item>entry2</item>
+        <item>entry3</item>
+        <item>entry4</item>
+	</string-array>
+	
+	<string-array name="pref_values">
+	    <item>entry0</item>
+        <item>entry1</item>
+        <item>entry2</item>
+        <item>entry3</item>
+        <item>entry4</item>
+	</string-array>
+	<string name="cal" >0</string>
+</resources>

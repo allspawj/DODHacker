@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/dad"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffffff" >
+
+    <RelativeLayout android:id="@+id/fake"
+        android:layout_width="match_parent"
+    	android:layout_height="match_parent"
+       >
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="22dp"
+        android:layout_marginLeft="14dp"
+        android:onClick="chartclick"
+        android:text="View Chart" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@id/button2"
+        android:layout_alignBottom="@id/button2"
+        android:layout_alignParentRight="true"
+        android:onClick="mealclick"
+        android:text="Add Meal" />
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="31dp"
+        android:layout_toRightOf="@id/button2"
+        android:src="@drawable/level0" />
+
+
+    <TextView
+        android:id="@+id/Display"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@+id/imageView1"
+        android:layout_marginTop="25dp"
+        android:textColor="#000000"
+        android:textSize="40dip" />
+    
+    <TextView
+        android:id="@+id/Display2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/Display"
+        android:textColor="#ff0000"
+        android:textSize="40dip" />
+
+            <Button
+            android:id="@+id/GG"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignBaseline="@+id/button2"
+            android:layout_alignBottom="@+id/button2"
+            android:layout_centerHorizontal="true"
+            android:onClick="logoutclick"
+            android:text="LOGOUT" />
+
+</RelativeLayout>
+</RelativeLayout>

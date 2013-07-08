@@ -1,0 +1,11 @@
+This was an andorid application developed for a 2013 DOD hackathon competition, codenamed PALADIN.
+
+Paladin 2.0, named after the famed Wild West TV show “Have Gun, Will Travel” a knight from chess was used on his business card, and the powerful M-109 self-propelled artillery system and early asymmetric warfare groups. Our Android app uses quick visual user interface to tell soldiers there current calorie level based upon daily activity level targets, as well as allow for squad leaders and up the change of command to look at unit level average levels to guide them in logistical and tactical decision making. Soldier can select any meal type and record actual packet consumption and cross meal packet trading, as well as pull in custom meals from a wide range of online and DOD created API’s for local deployed meal items. The app also has an online/offline accessible learning resource of info and links. The system records and reports back to stake holders actual meal usages and levels as well as a built –in report back to Natick Labs thru secure military email channels issues with ration. Natick can also push out to apps polls and questionnaire to all users to supplement their person-to-person annual troop surveying efforts.
+
+To install the application, you must first have access to a machine that has installed the android SDK and android dev tools, which can be located http://developer.android.com/sdk/index.html
+
+If you are using windows, you may need to install the android USB driver http://developer.android.com/sdk/win-usb.html
+
+You must enable your phone to be able to install the application.  Under “Settings,” select “Application Settings” and then enable “Unknown Sources.” 
+
+There is a file called dodhackathon.apk beside this README. This is what you must install. 
